@@ -1,2 +1,5 @@
-- Menambahkan media query agar responsif
-- Menambahkan styling agar terlihat lebih bagus
+Catatan : 
+- Menambahkan media query agar responsif.
+- Menambahkan styling agar terlihat lebih bagus.
+
+> Fungsi konversi suhu sudah jalan.
