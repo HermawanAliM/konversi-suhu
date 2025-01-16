@@ -15,3 +15,7 @@ Teknologi yang digunakan pada project ini :
 - HTML5
 - CSS3
 - JavaScript 
+
+## Screenshoot Web
+![Screenshot 2025-01-16 170710](https://github.com/user-attachments/assets/98c19e98-3918-4a7a-ba48-cf3f2907cb0b)
+
