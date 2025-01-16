@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi Suhu</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Web Konversi Suhu</h1>
+    <div class="container-field">
+      <div class="field-temperature">
+        <label for="inputTemperature">Masukkan angka : </label>
+        <input type="text" name="inputTemperature" id="inputTemperature" placeholder="Contoh : 100" required>
+      </div>
+      <div class="field-coversion">
+        <label for="conversionType">Konversi Ke : </label>
+        <select name="conversionType" id="conversionType">
+          <optgroup label="Celsius">
+            <option value="celsiusFahrenheit">Celsisus - Fahrenheit</option>
+            <option value="celsiusKelvin">Celsisus - Kelvin</option>
+            <option value="celsiusReamur">Celsisus - Reamur</option>
+          </optgroup>
+          <optgroup label="Fahrenheit">
+            <option value="fahrenheitCelsius">Fahrenheit - Celsius</option>
+            <option value="fahrenheitKelvin">Fahrenheit - Kelvin</option>
+            <option value="fahrenheitReamur">Fahrenheit - Reamur</option>
+          </optgroup>
+          <optgroup label="Kelvin">
+            <option value="kelvinCelsius">Kelvin - Celsius</option>
+            <option value="kelvinFahrenheit">Kelvin - Fahrenheit</option>
+            <option value="kelvinReamur">Kelvin - Reamur</option>
+          </optgroup>
+          <optgroup label="Reamur">
+            <option value="reamurCelsius">Reamur - Celsius</option>
+            <option value="reamurFahrenheit">Reamur - Fahrenheit</option>
+            <option value="reamurKelvin">Reamur - Kelvin</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
+    <button type="button" id="conversion-button">Konversi</button>
+    <div id="conversion-result" hidden>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

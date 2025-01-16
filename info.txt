@@ -1,0 +1,2 @@
+- Menambahkan media query agar responsif
+- Menambahkan styling agar terlihat lebih bagus
