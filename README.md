@@ -7,7 +7,7 @@ Terdapat beberapa satuan suhu yang bisa dikonversi :
 - Kelvin
 - Reamur
 
-## Cara Instalasi
+## Clone Repo
 - Clone repository : https://github.com/HermawanAliM/konversi-suhu.git
 
 ## Teknologi 
